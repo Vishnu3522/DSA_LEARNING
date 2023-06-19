@@ -9,7 +9,7 @@ struct Node {
 void deleteNodesWithValue(Node** head_ref, int x) {
     Node* current = *head_ref;
     Node* next_node;
-
+    
     while (current != NULL) {
         if (current->data == x) {
             next_node = current->next;
